@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,600;1,700&display=swap');
+* {
+   font-size: 16px;
+   font-family: 'Raleway', sans-serif;
+}
+
+html,body {
+   width: 100%;
+}
+
+/* Header // NavBar && Animação ---------------------------- */
+.navbar {
+   background-color: #2b2eb1;
+
+   transition: 500ms !important;
+}
+
+.btn-menu {
+   background-color: #4c4fe6;
+}
+.btn-menu:hover {
+   background-color: #222386;
+   color: #ececec;
+}
+
+.navbar-nav {
+   gap: 10px;
+}
+
+.border-light {
+   border-color: #ececec !important;
+}
+
+.img-anime {
+   height: 40px;
+   transition: 500ms;
+}
+
+/* Container // Início ------------------------------- */
+#inicio {
+   background-image: url('../images/background-image-1.jpg');
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+#inicio > div {
+   background: rgba(62, 64, 196, 0.459);
+}
+
+/* Container // Cultos Domesticos ------------------------ */
+#cultos-domesticos {
+   background: linear-gradient(45deg, #e0f7df, #180e81);
+}
+
+/* Container // Cristo para todos ------------------------- */
+#lema-ielb {
+   
+   background-image: url('../images/background-image-2.jpg');
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+
+   color: #465052;
+}
+
+#lema-ielb > div {
+   background-color: rgba(201, 224, 198, 0.9)
+}
+
+/* Container // Paroqia em numeros ----------------------- */
+
+/* Container // Ano de 2020 */
+#ano2020 {
+   background-color: #CBEDF9;
+}
+ .card {
+   background-color: rgba(255, 255, 255, .3);
+   border: none;
+   padding: 3px;
+}
+
+/* Container // Contato ------------------------------------ */
+#contato {
+   background-image: url('../images/background-image-2.jpg');
+   background-size: cover;
+   background-position: bottom;
+   background-attachment: fixed;
+}
+
+#contato > div {
+   background: rgba(35, 160, 209, 0.5);
+}
+
+/* Footer --------------------------------------------------- */
+#social-media {
+   border-top: solid 1px #465052;
+}
