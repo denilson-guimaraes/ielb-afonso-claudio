@@ -1,6 +1,5 @@
 // Social Media - Link
 function socialMediaLink(e){
-   console.log()
    for (let className of e.classList) {
       switch(className){
          case 'facebook': window.open('https://www.facebook.com/IELBAfonsoclaudio') 
@@ -33,7 +32,7 @@ function animeScroll(){
 
    })
 
-}
+};
 animeScroll();
 
 // Navbar - Animação
